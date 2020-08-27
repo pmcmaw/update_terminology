@@ -47,6 +47,22 @@ When complete it will look like this: `/Users/paula/workspace/pdksync/update_ter
 
 `6) GITHUB_TOKEN=<insert your token> bundle exec rake 'git:create_pr[(feat) - Removal of inappropriate terminology]'`
 
+## Manually overriding changes
+
+- Navigate to the managed modules cloned repo
+`/Users/paula/workspace/pdksync/modules_pdksync/puppetlabs-apache`
+- Make and save your changes as normal 
+`vim templates/mod/security_crs.conf.erb`
+- Stage your changes
+`git add templates/mod/security_crs.conf.erb`
+- Commit your change
+`git commit -m 'Reverting URLs back to master`
+- Push your changes
+`git push origin pdksync_removal_of_inappropriate_terminology`
+
+
+*Done*
+
 
 # BE AWARE
 
@@ -57,3 +73,5 @@ This script was developed to do this process quickly however it will change URLS
 *After:* An Apache::OIDCSettings Struct containing [mod_auth_openidc settings](https://github.com/zmartzone/mod_auth_openidc/blob/master/auth_openidc.conf).
 
 The link after is now broken, this will need changed back manually, the script isn't clever enough to check if the URL exists before changing, in this case all the terms `master` in the URL were replaced with `main`.
+
+
