@@ -53,6 +53,6 @@ This script was developed to do this process quickly however it will change URLS
 
 *Before:* An Apache::OIDCSettings Struct containing [mod_auth_openidc settings](https://github.com/zmartzone/mod_auth_openidc/blob/main/auth_openidc.conf).
 
-*After:* An Apache::OIDCSettings Struct containing (mod_auth_openidc settings)[https://github.com/zmartzone/mod_auth_openidc/blob/master/auth_openidc.conf].
+*After:* An Apache::OIDCSettings Struct containing [mod_auth_openidc settings](https://github.com/zmartzone/mod_auth_openidc/blob/master/auth_openidc.conf).
 
 The link after is now broken, this will need changed back manually, the script isn't clever enough to check if the URL exists before changing, in this case all the terms `master` in the URL were replaced with `main`.
