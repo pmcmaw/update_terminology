@@ -51,7 +51,7 @@ When complete it will look like this: `/Users/paula/workspace/pdksync/update_ter
 
 This script was developed to do this process quickly however it will change URLS that contain any of the terms, therefore before merge you need to rectify this.
 
-*Before:* An Apache::OIDCSettings Struct containing (mod_auth_openidc settings)[https://github.com/zmartzone/mod_auth_openidc/blob/main/auth_openidc.conf].
+*Before:* An Apache::OIDCSettings Struct containing [mod_auth_openidc settings](https://github.com/zmartzone/mod_auth_openidc/blob/main/auth_openidc.conf).
 
 *After:* An Apache::OIDCSettings Struct containing (mod_auth_openidc settings)[https://github.com/zmartzone/mod_auth_openidc/blob/master/auth_openidc.conf].
 
