@@ -43,9 +43,11 @@ When complete it will look like this: `/Users/paula/workspace/pdksync/update_ter
 
 `4) bundle exec rake 'pdksync:run_a_command[rm update_terminology.rb]'`
 
-`5) bundle exec rake 'git:push'`
+`5) bundle exec rake 'git:create_commit[removal_of_inappropriate_terminology, (feat) - Removal of inappropriate terminology]';`
 
-`6) GITHUB_TOKEN=<insert your token> bundle exec rake 'git:create_pr[(feat) - Removal of inappropriate terminology]'`
+`6) bundle exec rake 'git:push'`
+
+`7) GITHUB_TOKEN=<insert your token> bundle exec rake 'git:create_pr[(feat) - Removal of inappropriate terminology]'`
 
 ## Manually overriding changes
 
