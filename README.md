@@ -4,9 +4,9 @@ This is a quick and simple script to update terminology quickly by combining the
 
 
 | Old Term | New Term |
-    ---    |    ---
+--- | ---
 | Puppet Master | Puppet Server|
-| master | main'
+| master | main|
 | Master | Main|
 | MASTER | MAIN|
 | Blacklist | Blocklist|
@@ -18,6 +18,7 @@ This is a quick and simple script to update terminology quickly by combining the
 | Slave | Agent|
 | slave | agent|
 | SLAVE | AGENT|
+
 
 ## Prerequisites
 
